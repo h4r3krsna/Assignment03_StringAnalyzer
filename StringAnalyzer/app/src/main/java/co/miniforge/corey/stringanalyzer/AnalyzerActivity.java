@@ -64,6 +64,8 @@ public class AnalyzerActivity extends AppCompatActivity {
         characterCount.setText(String.format("Character Count: %d", textUtil.getTextCharacterCount()));
         wordCount.setText(String.format("Word Count: %d", textUtil.getWordCount()));
         uniqueCharacters.setText(String.format("Unique Characters: %d", textUtil.getUniqueCharacters()));
+        uniqueWords.setText(String.format("Unique Words: %s", textUtil.getUniqueWords()));
+        longestWord.setText(String.format("Longest Word: %s", textUtil.getLongestWord()));
         specialCharactersCount.setText(String.format("Special Characters: %d", textUtil.getSpecialCharacterCount()));
 
         backToInputButton.setOnClickListener(new View.OnClickListener() {
