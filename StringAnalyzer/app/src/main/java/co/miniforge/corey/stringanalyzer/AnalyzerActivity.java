@@ -16,10 +16,10 @@ public class AnalyzerActivity extends AppCompatActivity {
 
     TextAnalyzerUtil textUtil;
 
-    TextView uniqueWords;
     TextView characterCount;
     TextView wordCount;
     TextView uniqueCharacters;
+    TextView uniqueWords;
     TextView longestWord;
     TextView specialCharactersCount;
 
