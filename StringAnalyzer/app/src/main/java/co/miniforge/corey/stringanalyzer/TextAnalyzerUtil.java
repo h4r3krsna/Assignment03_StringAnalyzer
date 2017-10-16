@@ -16,7 +16,7 @@ public class TextAnalyzerUtil {
     }
 
     public int getTextCharacterCount(){
-        return text.length();
+        return (text.replaceAll("([ ])", "")).length();
     }
 
     public int getWordCount(){
